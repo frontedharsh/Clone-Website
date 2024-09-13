@@ -1,0 +1,107 @@
+<div class="nav">
+        <ul>
+          <div class="iconpd">
+            <li>
+              <a href="#"><span id="pd"><img id="logo" src="pdlogo.png" /></span>ParallelDots</a>
+            </li>
+          </div>
+          <div class="menubar">
+            <li><a href="#">Products</a>
+            </li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Company</a></li>
+          </div>
+          <div class="menubar2">
+            <li id="demo"><a href="#">Request A Demo</a></li>
+            <li class="lan">
+              <a href="#">EN <i class="ri-arrow-down-s-line"></i></a>
+            </li>
+          </div>
+        </ul>
+      </div>
+
+
+      .nav ul{
+        display: inline-flex;
+        list-style-type:none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav ul li{
+        padding: 4px;
+        margin:4px;
+    }
+    .nav ul li  a{
+        text-decoration: none;
+        color: azure;
+        font-size: 18px;
+    }
+    .iconpd{
+         margin-left: 180px;
+    }
+     .menubar li{
+        display: inline-flex;
+        justify-content: center;
+        line-height: 40px;
+        width: 170px; 
+    } 
+    .menubar2 li{
+        display: inline-flex;
+        justify-content:end;
+    }
+    .menu .nav ul .menubar li a:hover{
+        background-color:  rgb(245, 119, 73) ;
+        border-radius: 10px;
+        padding:0px 17px;      
+    }
+    .menu .nav ul .menubar2 .lan :hover{
+        background-color: rgb(245, 119, 73);
+        border-radius: 10px;
+        padding:4px;
+    }
+    .menubar2 #demo a{
+        background-color: rgb(52, 48, 59);
+        padding: 8px;
+        border-radius: 17px;
+    }
+
+    #logo{
+        height: 30px;
+        width: 34px;
+        position:absolute;
+        top: 50px;
+        left: 150px;
+    }
+
+
+
+
+    display:flex;
+    padding-top: 17px;
+    padding-left: 170px;
+
+
+
+
+
+    <div class="compmini">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+
+
+    .compmini{
+      display: none;
+  }
+  .navi .center ul li:hover .compmini{
+      display:block;
+      position: absolute;
+      top: 30px;
+      left: 440px;
+  }
